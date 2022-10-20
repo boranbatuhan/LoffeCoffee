@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: "cSugar";
+    src: url("/src/assets/Fonts/cSugar.ttf");
+}@font-face {
+    font-family: "cMidnight";
+    src: url("/src/assets/Fonts/cMidnight.ttf");
+}
+
+@layer components{
+    .text-outline{
+        text-shadow: rgb(1, 1, 1) 2px 0px 0px, rgb(1, 1, 1) 1.75517px 0.958851px 0px, rgb(1, 1, 1) 1.0806px 1.68294px 0px, rgb(1, 1, 1) 0.141474px 1.99499px 0px, rgb(1, 1, 1) -0.832294px 1.81859px 0px, rgb(1, 1, 1) -1.60229px 1.19694px 0px, rgb(1, 1, 1) -1.97998px 0.28224px 0px, rgb(1, 1, 1) -1.87291px -0.701566px 0px, rgb(1, 1, 1) -1.30729px -1.5136px 0px, rgb(1, 1, 1) -0.421592px -1.95506px 0px, rgb(1, 1, 1) 0.567324px -1.91785px 0px, rgb(1, 1, 1) 1.41734px -1.41108px 0px, rgb(1, 1, 1) 1.92034px -0.558831px 0px;
+    }
+    .search{
+        @apply
+        text-center
+        text-black
+        dark:text-white
+        border-black border-2 rounded-xl focus:border-r-4 focus:border-b-4 transition-all
+        outline-none
+        font-bold text-2xl
+        bg-transparent
+        cursor-help
+         px-4 py-2
+        focus:shadow-md focus:shadow-cyan-300
+        hover:bg-cyan-100
+        dark:hover:bg-cyan-700
+        m-2
+
+    }
+    .button{
+        @apply
+        text-center cursor-pointer
+        border-4 rounded-xl hover:border-r-8 hover:border-b-8 transition-all
+        h-fit w-fit px-4 py-2
+        font-bold text-2xl
+        border-black 
+        text-black
+        dark:text-white
+        select-none
+        m-2
+        
+    }
+    .darkModeButton{
+
+        @apply
+        -m-4 hover:m-0 rounded-full w-16 h-16 transition-all 
+        hover:bg-zinc-900 hover:scale-150
+        dark:hover:bg-zinc-100
+        fixed top-0 right-0
+        dark:bg-amber-400
+        bg-zinc-600
+        shadow-lg dark:shadow-amber-400 shadow-zinc-900
+        rotate-45
+
+        /*
+         import { ref } from "@vue/reactivity"
+        const counter = ref(1)
+        const toggleDark=()=>{
+            counter.value++
+            if ( counter.value%2==0)
+            document.querySelector("html").setAttribute("class","dark")
+            else
+            document.querySelector("html").setAttribute("class","")
+        } 
+        */
+    }
+}

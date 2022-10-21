@@ -14,7 +14,7 @@
 @layer components{
     .menuText{
         @apply
-        text-[#432818] font-cMidnight font-extrabold
+        text-[#432818] font-cMidnight font-extrabold text-xl
     }
     .menuImg{
         @apply

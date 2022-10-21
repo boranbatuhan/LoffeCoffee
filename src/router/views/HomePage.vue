@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col items-center justify-between font-cMidnight select-none  w-screen m-auto">
+    <div v-auto-animate class="flex flex-col items-center justify-between font-cMidnight select-none  w-screen m-auto">
         <div class="w-full h-28 py-2 text-[#99582a] bg-[#432818] flex justify-center gap-10 text-3xl items-center">
             <p class="font-extrabold">Loffe' </p>
             <img src="/src/assets/loffee.png" width="64px" alt="">

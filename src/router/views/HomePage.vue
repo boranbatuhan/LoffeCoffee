@@ -5,7 +5,7 @@
             <img src="/src/assets/loffee.png" width="64px" alt="">
             <p class="font-extrabold">Coffee</p>
         </div>
-        <div class="w-full py-12 pl-40 bg-[#bb9457] h-28 flex justify-start items-center">
+        <div class="w-full py-12 pl-4 sm:pl-4 md:pl-40 bg-[#bb9457] h-28 flex justify-start items-center">
             <div class="rank flex items-center justify-center text-2xl font-extrabold !font-cSugar text-[#432818]">
                 <p class="hover:scale-125 transition-all">%10</p>
             </div>

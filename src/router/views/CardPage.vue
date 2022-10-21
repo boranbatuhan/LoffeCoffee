@@ -9,8 +9,13 @@
             <p class="font-cSugar m-auto text-center w-[323px] z-20 text-9xl absolute opacity-50  leading-[200px] -rotate-[30deg] text-outline text-white"> Loffe'Coffee</p>
         </div>
         <div>
+          
           <div class="btn w-32 h-12 text-2xl font-cMidnight font-semibold text-center leading-[48px] cursor-pointer transition-all hover:!bg-[#22140c] hover:text-[#e6cb94] hover:scale-110">TL yükle</div>
-        </div>        
+        </div>      
+        <p class="font-bold my-16 border-t-2 text-center w-full  text-2xl font-cMidnight text-[#e6cb94] text-outline">Mevcut Bakiye : 83,25 ₺</p>
+
+
+
     </div>
 </template>
 

@@ -1,7 +1,7 @@
 <template>
 
         <div class="w-fit flex items-center justify-center overflow-auto">
-            <div class="flex flex-row flex-wrap justify-center gap-10  items-center h-96  w-2/3">
+            <div class="flex flex-row flex-wrap justify-center gap-10  items-center h-96  w-2/3" v-auto-animate>
                 <div class=" menuContainer gradUp"><img class="menuImg" src="/src/assets/menu/1-loffe-heawen.png" alt=""> <p class="menuText">Loffe' Heawen</p> </div>     
                 <div class=" menuContainer gradUp"><img class="menuImg" src="/src/assets/menu/2-red-dream.png" alt=""> <p class="menuText">Red Dream</p> </div>     
                 <div class=" menuContainer gradUp"><img class="menuImg" src="/src/assets/menu/3-berry-coffee.png" alt=""> <p class="menuText">Berry Coffee</p> </div>     
@@ -19,6 +19,7 @@
             </div>  
         </div> 
 </template>
+
 
 <style scoped>
 .gradUp{

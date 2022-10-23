@@ -27,7 +27,6 @@ const opened = ref(false)
 
 const isMobile=ref()
 isMobile.value = window.matchMedia("only screen and (max-width: 480px)").matches;
-console.log('isMobile', isMobile.value)
 const goFs=()=>{
   if( isMobile.value==true){
   

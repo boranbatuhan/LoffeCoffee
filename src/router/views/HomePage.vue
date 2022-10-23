@@ -55,7 +55,6 @@ const chipCount = ref(0)
 const coffeeCount = ref(0)
 const tıkla =()=>{
     chipCount.value++
-    console.log('counter.value', chipCount.value)
     if(chipCount.value>=11)
     {
         chipCount.value=0

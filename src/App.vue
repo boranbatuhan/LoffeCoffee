@@ -12,7 +12,11 @@
     </div>
   
   </div>
-  
+  <div class="visible sm:visible md:hidden">
+    <a href="https://www.google.com.tr" class="text-[#432818] border-[#bb9457] bg-[#ffe6a7] fixed top-0 right-0 border-2 rounded-md w-6 h-6 text-center m-1 flex justify-center items-center select-none cursor-pointer ">X</a>
+   <a href="javascript:window.location.reload();" class="text-[#432818] border-[#bb9457] bg-[#ffe6a7] fixed top-10 right-0 border-2 rounded-md w-6 h-6 text-center m-1 flex justify-center items-center select-none cursor-pointer ">R</a>
+
+  </div>
 </template>
 
 <script setup>
@@ -36,7 +40,6 @@ const goFs=()=>{
   }
 
 }
-
 
 </script>
 

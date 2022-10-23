@@ -1,7 +1,8 @@
 <template>
-  <div v-show="!opened" class="h-screen w-screen flex bg-[#432818] items-center justify-center" >
-    <img src="/src/assets/loffee.png" alt="">
+  <div @click="goFs" v-show="!opened" class="h-screen w-screen flex bg-[#432818] items-center justify-center" >
+    <img class="animate-pulse" src="/src/assets/loffee.png" alt="">
   </div>
+
   <div v-show="opened"  class="h-screen w-screen flex flex-col">
     <router-view class="üst"></router-view>
     <div class="w-screen h-[64px] flex gap-10 justify-evenly items-center  bg-[#432818]">
@@ -20,19 +21,29 @@ import { ref } from "@vue/reactivity";
 
 const opened = ref(false)
 
-setTimeout(() => {
-    opened.value= !opened.value
-  }, 10);
-
+const isMobile=ref()
+isMobile.value = window.matchMedia("only screen and (max-width: 480px)").matches;
+console.log('isMobile', isMobile.value)
+const goFs=()=>{
+  if( isMobile.value==true){
   
+    document.body.requestFullscreen();
+    opened.value= true
+  }
+  else{
+    opened.value= true
+
+  }
+
+}
+
 
 </script>
 
 <style>
 
-body {min-height:540px;}
-body[orient="portrait"] { min-height:540px; }
-body[orient="landscape"] { min-height: 400px; }
+
+
 .üst{
 
   height: calc(100vh - 64px);

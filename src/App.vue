@@ -22,13 +22,17 @@ const opened = ref(false)
 
 setTimeout(() => {
     opened.value= !opened.value
-  }, 2000);
+  }, 10);
 
   
 
 </script>
 
 <style>
+
+body {min-height:540px;}
+body[orient="portrait"] { min-height:540px; }
+body[orient="landscape"] { min-height: 400px; }
 .üst{
 
   height: calc(100vh - 64px);

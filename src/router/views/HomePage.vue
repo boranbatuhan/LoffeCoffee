@@ -73,6 +73,11 @@ const foto=computed(()=>{
 
     return 
 })
+
+
+
+	
+
 </script>
 
 <style>

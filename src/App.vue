@@ -23,6 +23,9 @@ const opened = ref(false)
 setTimeout(() => {
     opened.value= !opened.value
   }, 2000);
+
+  
+
 </script>
 
 <style>

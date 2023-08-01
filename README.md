@@ -1,7 +1,7 @@
 <h1 align="center">Loffe Coffee</h1>
 
 <p align="center"> User WebApp for Coffee Shop </p>
-<h3 align="center"><a href="https://loffecoffee-delta.vercel.app/#/"> Click me </a> for live demo.</h3>
+<h3 align="center"><a href="https://loffecoffee-delta.vercel.app/#/" target="_blank"> Click me </a> for live demo.</h3>
 
 ### **Web**
 

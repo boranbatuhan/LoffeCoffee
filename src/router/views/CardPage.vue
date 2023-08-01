@@ -2,17 +2,17 @@
 
     <div class="w-full bg-grad flex flex-col gap-10 justify-start pt-16 items-center select-none ">
         <div class="lcCard relative overflow-hidden flex flex-row yellowgold flex-wrap hover:scale-110 transition-all">
-            <img class="absolute opacity-70 -right-32 shrink-0 " src="/src/assets/blob.svg" alt="">
-            <img class="absolute opacity-60 -top-32 shrink-0 " src="/src/assets/blob-1.svg" alt="">
-            <img class="absolute opacity-90 -left-32 -top-10 shrink-0 " src="/src/assets/blob-2.svg" alt="">
-            <img class="absolute bottom-2 right-2 opacity-90 w-16 h-16 shrink-0 " src="/src/assets/loffee.png" alt="">
+            <img draggable="false" loading="eager" class="absolute opacity-70 -right-32 shrink-0 " src="/src/assets/blob.svg" alt="">
+            <img draggable="false" loading="eager" class="absolute opacity-60 -top-32 shrink-0 " src="/src/assets/blob-1.svg" alt="">
+            <img draggable="false" loading="eager" class="absolute opacity-90 -left-32 -top-10 shrink-0 " src="/src/assets/blob-2.svg" alt="">
+            <img draggable="false" loading="eager" class="absolute bottom-2 right-2 opacity-90 w-16 h-16 shrink-0 " src="/src/assets/loffee.png" alt="">
             <p class="font-cSugar m-auto text-center w-[323px] z-20 text-9xl absolute opacity-50  leading-[200px] -rotate-[30deg] text-outline text-white"> Loffe'Coffee</p>
         </div>
         <div>
           
-          <div class="btn w-32 h-12 text-2xl font-cMidnight font-semibold text-center leading-[48px] cursor-pointer transition-all hover:!bg-[#22140c] hover:text-[#e6cb94] hover:scale-110">TL yükle</div>
+          <div class="btn w-32 h-12 text-2xl font-cMidnight font-semibold text-center leading-[48px] cursor-pointer transition-all hover:!bg-[#22140c] hover:text-[#e6cb94] hover:scale-110">Add TL</div>
         </div>      
-        <p class="font-bold my-16 border-t-2 text-center w-full  text-2xl font-cMidnight text-[#e6cb94] text-outline">Mevcut Bakiye : 83,25 ₺</p>
+        <p class="font-bold my-16 border-t-2 text-center w-full  text-2xl font-cMidnight text-[#e6cb94] text-outline">TL Balance : 83,25 ₺</p>
 
 
 
